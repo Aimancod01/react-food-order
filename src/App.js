@@ -13,7 +13,7 @@ function App() {
   }
   return (
     <CartProvider>
-      {show && <div>Cart...</div>}
+      {show && <div>Cart</div>}
       <Header onShowCart={showCartHandler} />
       <main>
         <Meals />
